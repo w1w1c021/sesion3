@@ -1,0 +1,46 @@
+<h1>Formulario de Registro</h1>
+<from action="POST" action="index.php">
+	<fieldset>
+		<legend>Cuenta</legend>
+		<label>Nombre</label><br>
+		<input type="text" name="name" required>
+		<br><br>
+
+		<label>Correo</label><br>
+		<input type="email" name="email">
+		<br><br>
+
+		<label>Contraseña</label><br>
+		<input type="password" name="password">
+		<br><br>
+	</fieldset>
+
+	<fieldset>
+		<legend>Informacion de usuario</legend>
+		<label>ubicacion</label><br>
+		<select name="location">
+			<option value="PE">Peru</option> 
+			<option value="ES">España</option>
+			<option value="UY">Uruguay</option>
+		</select>
+		<br><br>
+
+		<label>Genero</label>
+		<input type="radio" nase="gender" value="Male">Masculino
+		<input type="radio" nase="gender" value="fenale" checked>femenino
+		<br><br>
+
+		<label>Intereses</label><br>
+		<input type="checkbox" name="interests" value="movies" checked>Peliculas
+		<input type="checkbox" name="interests" value="music">Musica
+		<input type="checkbox" name="interests" value="sports" checked>Deportes
+		<input type="checkbox" name="interests" value="art">Arte
+		<br><br>
+	</fieldset>
+	<br>
+	<input type="submit" name="enviar">
+</from>
+
+
+	</fieldset>
+
